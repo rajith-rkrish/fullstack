@@ -4,7 +4,7 @@ const {
   registerUser,
   getMe,
   loginUser,
-} = require("../controllers/userCOntroller");
+} = require("../controllers/userController");
 const { protect } = require("../middleware/authMiddleware");
 
 router.post("/", registerUser);
